@@ -1,0 +1,83 @@
+/* VALUE OF RGB IS 255, YOU CAN GIVE ANY CHARACTER TO VALUE TO SPECIFIC CHARACTER. LIKE(rgb(20, 30, 50))  */
+/* WE CAN ALSO USE HEXADECIMAL VALUE LIKE #ffffff Eg #ff0000 */
+/* WE CAN ALSO USE px or %  */
+h1{
+    margin-inline: 700px;
+    color: blue;
+    
+}
+p{
+    margin-inline: 100px;
+    color:maroon;
+    background-color:rgba(128, 128, 128, 0.315);
+    border-radius: 10px;
+    align-items: center;
+    font-size:larger;
+    word-spacing: 10px; /*you can give space between words mannually*/
+    line-height: 28px; /*you can give space between first and second line mannually*/
+    letter-spacing: 4px; /*you can give space between the characters mannually*/
+    font-weight: 400;   
+}
+
+#myparagraph{
+    margin-left: 700px;
+    color:darkgreen;
+    background-color:rgba(0, 139, 139, 0.308);
+    
+}
+#mydiv{
+    margin-left: 800px;
+    color: indigo;
+}
+table, th, td{
+    margin-left: 800px;
+    border: 1px solid black;
+    width: 20%;
+}
+.myhead{
+    color:mediumblue
+}
+#items{
+    background: slateblue;
+    color:blue;
+}
+.item{
+    border: 1px solid black;
+    background:wheat;
+    color:black;
+}
+body{
+    /* background-image: url('img/bg.jpg'); */
+    /*(means backgroud no repeat )*/
+    /* background-repeat: no-repeat;  */
+    /* means backgroud is repeat on x axis */
+    /* background-repeat: repeat-x; */
+    /* background-position: right top; */
+    /*if you scrolling down your image is still show you*/
+    /* background-attachment: fixed;  */
+    /*I can also write these background lines in one line*/
+    /* background-repeat:no-repeat; */
+    background:palegreen url('img/bg.jpg') no-repeat right top;
+    
+}
+.end{
+    /* border width=2px, border style=solid, border color=red, we can also give separate attribute */
+    border: 5px solid red;
+    border-top: 5px dotted royalblue;
+    /* use of border radius to give border round */
+    border-radius: 8px;
+    /* MARGIN property is used to manipulate the text or anything in this page like(top,bottom,left,right) */
+    /* margin inline means the centre(x axis)*/
+    /* or HERE I CAN ALSO USE 50% INSTEAD OF 500px */ 
+    /* MARGIN WORKS HORIZONTALLY */
+    margin: auto;
+    /* THIS IS HEIGHT AND WIDTH PROPERTY */
+    width: 50%;
+    height: 10%;
+
+    
+
+}
+/* HOW MARGIN WORKS  AND HOW TO WRITE IN ONE LINE*/
+/* margin 100px 100px 100px 100px(top right bottom left)   */
+
